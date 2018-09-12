@@ -39,4 +39,4 @@ client.on('ready', () => {
 	client.user.setPresence({ game: { name: 'k!help' } });
 });
 
-client.login(token);
+client.login(process.env.TOKEN);
